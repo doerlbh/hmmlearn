@@ -1,3 +1,7 @@
+### This hmmlearn version is modified by Baihan Lin, Columbia University, to add a few costimized functions:  
+
+- non-egoridic emmission function
+
 hmmlearn |travis| |appveyor|
 ========
 
