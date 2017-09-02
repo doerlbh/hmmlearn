@@ -5,6 +5,8 @@
 # API changes: Jaques Grobler <jaquesgrobler@gmail.com>
 # Modifications to create of the HMMLearn module: Gael Varoquaux
 # More API changes: Sergei Lebedev <superbobry@gmail.com>
+#
+# Modified by Baihan Lin, Columbia University
 
 """
 The :mod:`hmmlearn.hmm` module implements hidden Markov models.

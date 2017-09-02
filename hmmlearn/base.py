@@ -1,3 +1,5 @@
+# Modified by Baihan Lin, Columbia University
+
 from __future__ import print_function
 
 import string
