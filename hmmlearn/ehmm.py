@@ -20,14 +20,14 @@ from sklearn.mixture import (
 )
 from sklearn.utils import check_random_state
 
-from .stats import log_multivariate_normal_density
-from .base import _BaseHMM
+from .estats import log_multivariate_normal_density
+from .ebase import _BaseHMM
 from .utils import iter_from_X_lengths, normalize, fill_covars
 
 __all__ = ["GMMHMM", "GaussianHMM", "MultinomialHMM"]
 
 COVARIANCE_TYPES = frozenset(("spherical", "diag", "full", "tied"))
-#EM_RESTRICTION = frozenset((""))
+
 
 class GaussianHMM(_BaseHMM):
     """Hidden Markov Model with Gaussian emissions.
